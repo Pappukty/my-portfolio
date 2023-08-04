@@ -1,0 +1,65 @@
+
+.container{
+  width: 1280px;
+  height: 400px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border: 1px solid grey;
+  position:relative;
+  top: 250px;
+  left: 30px;
+}
+.contact-title{
+  color: rgb(196, 191, 191);
+  font-weight: 800;
+  font-size: 32px;
+  position: relative;
+top:5px;
+left: 2px;
+}
+.name{
+  color: antiquewhite;
+
+}
+.email{
+  position: absolute;
+  top: 150px;
+  left: 550px;
+}
+.contact{
+  color: rgb(208, 212, 214);
+display: flex;
+flex-direction: column;
+gap: 1rem;
+cursor: pointer;
+}
+
+.logo{
+  color: white;
+font-size: 18px;
+font-weight: 700;
+margin: 4rem;
+
+}
+.logo-container{
+  border: 3px solid white;
+  margin: 1rem 1rem;
+  padding: 5px 5px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+cursor: pointer;
+}
+.logo-container:hover{
+  border: 2px solid palevioletred;
+  color: cyan;
+}
+.position{
+  position: absolute;
+  top: 100px;
+  left: 580px;
+  color: gray;
+  
+}
