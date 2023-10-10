@@ -1,9 +1,17 @@
- .topContainer{
-  background: url('../../../assets/Picsart_23-06-11_18-18-30-194-transformed.jpeg');
-  height: 100vh;
+.topContainer {
+  width: 100vw;
+
+  box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.5);
+  background-color: black;
+}
+.topContainer-1 {
+  width: 100%;
+  height: 80%;
+  /* background-image: url(../../../assets/ajay-1.jpg);
+
   background-position: center;
   background-size: cover;
-  background-repeat: no-repeat;
-  box-shadow: inset 0 0 0 2000px rgba(0,0,0,0.5);
-  background-color: black;
+  background-repeat: no-repeat; */
+}
+@media (max-width: 768px) {
 }

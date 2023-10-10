@@ -11,9 +11,10 @@ const Contact = () => {
   return (
 
 <div className='container' id='contact'>
- 
-<div className='contact'>
-<h2 className='contact-title'>contact Me</h2>
+
+<div className='contact-con'>
+<h2 className='contact-title'>Footer</h2>
+<div className='footer-details'>
 <h3 className='name'>Ajay</h3>
 <p className='position'>web developer</p>
       <span className='email'><AiTwotoneMail/>
@@ -22,17 +23,17 @@ const Contact = () => {
   </span>
   <span className='location'><BiSolidLocationPlus/>
     tiruppur</span>
-      </div>
+   
       <div className='logo'>
-
-
-
 <a href='https://www.linkedin.com/in/ajay-k-4a2895283/' className='logo-container'>
 <AiFillLinkedin/>
 </a>
 <a href='https://github.com/Pappukty' className='logo-container'>
 <AiFillGithub/>
 </a>
+</div>
+</div>
+
       </div>
       </div>
     

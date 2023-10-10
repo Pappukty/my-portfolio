@@ -9,22 +9,22 @@ import { Button } from 'react-scroll';
 
 
 const ProjectContainer = () => {
-  
+   
   return (
-<div id='projects'>
+<div id='projects' className='projects-con'>
 <h2 className='sub-title'>project</h2>
   <div className='card-container' >
-    
-    <Slider>
-    {projectSlider.map((item => {
-      
-    
-      const {id, title, image,desc,url,github} = item;
-    return(
-    
-      <div className='card' >project
-      <div className='card-top' id={1}>
-      <img src={image} alt={item.currencyConverter} width='200px'className='image' ></img>
+
+<Slider>
+{projectSlider.map((item => {
+
+
+const {id, title, image,desc,url,github} = item;
+return(
+
+<div className='card' >project
+<div className='card-top' id={1}>
+<img src={image} alt={item.currencyConverter} width='200px'className='image' ></img>
 
         </div>
       <div className='card-bottom'>
@@ -48,6 +48,7 @@ const ProjectContainer = () => {
 
   </div>
   </div>
+
   )
 }
 

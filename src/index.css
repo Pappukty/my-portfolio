@@ -1,9 +1,59 @@
-*{
-margin: 0;
-padding: 0;
+@import url("https://fonts.googleapis.com/css2?family=Alata&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alata&family=Crimson+Text&display=swap");
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-background-color: black;
+  /* overflow-x: hidden; */
+}
+
+#light {
+  background-color: #f3ebf6;
+}
+#dark {
+  background-color: #0b0b0b;
+  min-height: 100vh;
+  width: 100vw;
+}
+.switch {
+  display: flex;
+  width: 20px;
+  height: 0px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 30px;
+  left: 350px;
+  z-index: 2200;
+  color: #f3ebf6;
+  position: sticky;
+}
+.slm {
+  color: bisque;
+  z-index: 2320;
+  width: 5rem;
+  background-color: red;
+  position: relative;
+}
+.switch.slm {
+  position: absolute;
+  font-size: 40px;
+  /* top: 50%;
+  left: 50%; */
+  transform: translate(-50%, -50%);
+}
+#dark.switch {
+  color: #f3ebf6;
+}
+#light.about-container {
+  border: 2px solid blue;
+}
+.darkTheme {
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
 }
